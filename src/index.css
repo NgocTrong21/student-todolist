@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+/* css table */
+.student-table {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  border: 2px solid black;
+  padding: 5px;
+}
+.student-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.row-table :nth-child(1) {
+  text-align: center;
+}
+
+.row-table :nth-child(5) {
+  text-align: center;
+}
+
+.row-table:nth-child(even) {
+  background-color: #e6e3e3;
+}
+.title {
+  text-align: center;
+}
+
+.btn-table {
+  text-align: right;
+}
+
+.btn-table button {
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.btn-table button:hover {
+  background-color: aquamarine;
+}
+
+/*css form */
+
+.student-form {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btn-form {
+  margin: 5px 0;
+}
+
+.invalid .message {
+  color: red;
+  font-style: italic;
+}
+
+.invalid .form-control {
+  border-color: red;
+}
+
+.btn-form button {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.create-btn {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.clear-btn {
+  background-color: #e0e0e0;
+  color: black;
+}
+
+.cancel-btn {
+  background-color: #f50057;
+  color: white;
+}
+
+.create-btn:hover {
+  background-color: #071460;
+}
+
+.clear-btn:hover {
+  background-color: #b1adad;
+}
+
+.cancel-btn:hover {
+  background-color: #ad0540;
+}
+
+/* display */
+.disappear {
+  display: none;
+}
